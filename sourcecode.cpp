@@ -12,8 +12,12 @@ public class Main{
     }
 
     public void Run(){
+		string input;
         while(true){
-             std::cout << "I am working over here!!!";
+		    std::cin >> input;
+			if(input == "What are you doing?"){
+                std::cout << "I am working over here!!!";
+            }
         }
     }
 }
