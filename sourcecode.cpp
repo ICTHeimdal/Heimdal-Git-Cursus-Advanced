@@ -9,6 +9,7 @@ public class Main{
 
     public void Init(){
         std::cout << "Initializing";
+		Ssh();
     }
 
     public void Run(){
@@ -16,4 +17,8 @@ public class Main{
              std::cout << "I am working over here!!!";
         }
     }
+	
+	public void Ssh(){
+		Connect(privatekey.txt); //this is geen correcte syntax
+	}
 }
